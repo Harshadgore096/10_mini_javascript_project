@@ -1,0 +1,67 @@
+.container{
+    width:500px;
+    height: 600px;
+    border:2px solid;
+    border-radius:35px;
+    border-color:rgb(221, 141, 13);
+    background-color: aquamarine;
+   
+}
+
+h1{
+    color:blue;
+    border-bottom: 2px solid;
+    border-color: rgb(232, 129, 11);
+    font-size:40px;
+
+}
+
+label{
+ color:rgb(228, 88, 12);
+ font-size: 25px;
+ padding: 10px;
+
+}
+.form-control{ 
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.butt{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.form-control .error
+{
+   color:#ff3860;
+   font-size:12px;
+   height:13px;
+   margin:10px;
+
+}
+
+.form-control.success input{
+   border-color: green;
+   
+}
+
+.form-control.error input{
+   border-color:red;
+}
+
+#form #btn{
+    margin-top:10px;
+    padding:10px;
+    width:100%;
+    background-color: orange;
+    border:none;
+    border-radius: 4px;
+    color:#ffff;
+    
+}
+   
