@@ -1,7 +1,8 @@
 # 10_mini_javascript_project
 
 
-#1. Form Validation
+1. Form Validation
+
 Purpose: Ensures that all form inputs are properly validated before submission.
 Features:
 Validates that the user has entered values in the necessary fields.
@@ -11,6 +12,7 @@ How it works: When the form is submitted, it checks if the expanseType, expensec
 
 
 #2. Expense Tracker
+
 Purpose: Allows users to track their expenses by adding new entries dynamically.
 Features:
 Displays a new entry with the expense type, category, and amount in a table format.
