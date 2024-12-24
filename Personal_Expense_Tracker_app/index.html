@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Expenza..</h1>
+            <h5>calculate Your monthly daily or yearly Expense on your fingertip...</h5>
+        </div>
+        <div class="content">
+               <form id="expanseform">
+            <h3> Enter Expanse Type...</h3>
+            <input type="text" name="expansetype" id="expanseType">
+            <h3> Enter Expanse Category...</h3><br>
+                <select  placeholder="Select The Expanse Category..." id="expensecategory">
+                    <option>Car</option>
+                    <option value="Electricity">Electricity</option>
+                    <option value="Shooping">Shooping</option>
+                    <option value="Grocery">Grocery</option>
+                    <option value="Food">Food</option>
+                    <option value="Outing">Outing</option>
+                    <option value="Mobile">Mobile Recharge</option>
+                    <option value="INVESTMENT">INVESTMENT</option>
+                    <option value="OTHERS">OTHERS</option>
+            </select>
+            <input type="number" name="amount" id="amount" placeholder="Amount">
+
+            <input type="submit" value="Add Expanse" name="submit">
+            
+        </form>
+
+
+        </div>
+        <div class="footer">
+            <h3>Expanse Summary</h3>
+            <table id="expanseTable">
+                <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>Category</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+                <tbody id="expanselist">
+
+                </tbody>
+            </table>
+
+        </div>
+        <script src="script.js"></script>
+    </div>
+    
+</body>
+</html>
